@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday Tisya!</title>
+  <style>
+    body {
+      font-family: 'Arial, sans-serif';
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(120deg, #ff9a9e, #fad0c4);
+      text-align: center;
+      color: #fff;
+    }
+    h1 {
+      margin-top: 50px;
+      font-size: 3em;
+    }
+    p {
+      font-size: 1.2em;
+      margin: 10px 20px;
+    }
+    .heart {
+      font-size: 2em;
+      color: #ff6b6b;
+    }
+    .gallery {
+      margin: 20px auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .gallery img {
+      width: 150px;
+      height: 150px;
+      margin: 10px;
+      border-radius: 15px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    }
+    .footer {
+      margin-top: 30px;
+      font-size: 0.9em;
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 1em;
+      background: #ff6b6b;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #fa5252;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎉 Happy Birthday, Tisya! 🎂</h1>
+  <p>To the most amazing girl in my life, this is just a small gift to show how special you are!</p>
+  <p class="heart">❤️ You are my sunshine, my joy, and my everything! ❤️</p>
+
+  <div class="gallery">
+    <img src="https://via.placeholder.com/150" alt="Memory 1">
+    <img src="https://via.placeholder.com/150" alt="Memory 2">
+    <img src="https://via.placeholder.com/150" alt="Memory 3">
+    <img src="https://via.placeholder.com/150" alt="Memory 4">
+  </div>
+
+  <button onclick="alert('Happy Birthday, Tisya! 🎉')">Click Me!</button>
+
+  <div class="footer">
+    <p>Made with ❤️ by Sanidhya</p>
+  </div>
+</body>
+</html>
